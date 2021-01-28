@@ -27,7 +27,7 @@ const PageOne = () => {
   };
 
       return (
-            <div className="container border my-5">
+            <div className="text-center container border my-5">
       <div className="container p-5">
         <h3>Stable coin gateway - BUY</h3>
 

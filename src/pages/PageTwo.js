@@ -23,7 +23,7 @@ const PageTwo = () => {
   };
 
       return (
-            <div className="container border my-5">
+            <div className="text-center container border my-5">
       <div className="container p-5">
         <input
           onBlur={(e) => setWallet(e.target.value)}
@@ -43,7 +43,7 @@ const PageTwo = () => {
         target="_blank"
         className="text-center"
       >
-        <h4>Don't have a BSC wallet yet?</h4>
+        <h4 className="text-dark">Don't have a BSC wallet yet?</h4>
       </a>
       <div className="text-center py-5">
         <Button variant="danger" className="px-5" onClick={isValid}>

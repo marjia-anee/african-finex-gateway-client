@@ -28,20 +28,20 @@ function PageFour({ children, ...rest }) {
           });
       };
       return (
-            <div className="container border my-5">
+            <div className="text-center container border my-5">
       <div className="container p-5">
         <h4 className="my-5">Transfers funds to the following account</h4>
         <div className="my-5">
-          <h3>IBAN: ABCDEFG1234567</h3>
+          <h3>IBAN: XYZFJGFG456887</h3>
           <h3>Swap ID: {htmlId}</h3>
         </div>
         <h4>
           As soon as the funds are received the transaction to your BSC wallet
           will be made the following address.
         </h4>
-        <h4 className="my-5">{finalWallet}</h4>
+        <h4 className="my-5 text-danger">{finalWallet}</h4>
         <a href="#" className="text-center">
-          <h4>Doubts? Discord or Telegram</h4>
+          <h4 className="text-dark">Doubts? Discord or Telegram</h4>
         </a>
         <div className="text-center">
           <Button variant="danger" className="px-5 mt-5 " onClick={postBuy}>

@@ -7,7 +7,7 @@ function SellThree() {
   let history = useHistory();
   const { account, setAccount } = useContext(UserContext);
       return (
-            <div className="container border my-5">
+            <div className="text-center container border my-5">
       <div className="container p-5">
         <input
           type="text"
@@ -17,7 +17,7 @@ function SellThree() {
         />
         <div className="mt-5">
           <a href="#">
-            <h4>Where can I find my IBAN</h4>
+            <h4 className="text-dark">Where can I find my IBAN</h4>
           </a>
           <Button variant="danger" onClick={() => history.push("/sell4")}>
             Next

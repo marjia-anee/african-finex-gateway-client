@@ -16,7 +16,7 @@ const [selectedBank, setSelectedBank] = useState("Chose Your Bank");
   };
 
       return (
-            <div className="container border my-5">
+            <div className="text-center container border my-5">
       <div className="container p-5">
         <div className="my-5">
           <SplitButton
@@ -44,7 +44,7 @@ const [selectedBank, setSelectedBank] = useState("Chose Your Bank");
           the best P2P for you.
         </h5>
         <a href="#" className="ml-5">
-          <h5>How long does it usually take?</h5>
+          <h5 className = "text-dark">How long does it usually take?</h5>
         </a>
         <Link to="/page4">
           <Button variant="danger" className="px-5 mt-5 text-center">

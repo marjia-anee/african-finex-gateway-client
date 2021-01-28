@@ -27,10 +27,10 @@ function SellFour() {
       });
   };
       return (
-            <div className="container border my-5">
+            <div className="text-center container border my-5">
       <div className="container p-5">
         <h4 className="my-5">
-          Transfer your tokens {token} to the following BSN (Biance smart chain)
+          Transfer your tokens <span className="text-danger"> {token}</span> to the following BSN (Biance smart chain)
           address and enter the result in a TXid
         </h4>
         <h4>0xd215423aAd24dA82f782eA845aeD269E621</h4>

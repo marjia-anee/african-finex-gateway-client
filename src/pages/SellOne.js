@@ -15,9 +15,10 @@ function SellOne() {
     setToken(e);
   };
       return (
-            <div className="container border my-5">
+            <div className=" text-center container border my-5">
       <div className="container">
-        <h4> Stablecoin gateway - Sell</h4>
+            <br/>
+        <h2> Stablecoin gateway - Sell</h2>
         <br/>
         <br/>
         <SplitButton
@@ -37,6 +38,8 @@ function SellOne() {
             token3
           </Dropdown.Item>
         </SplitButton>
+        <br/>
+        <br/>
         <div>
           <label htmlFor="quantity">
             <input type="number" placeholder="Quantity" />
@@ -50,6 +53,8 @@ function SellOne() {
             Next
           </Button>
         </Link>
+        <br/>
+        <br/>
       </div>
     </div>
       );

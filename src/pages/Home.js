@@ -10,7 +10,7 @@ const Home = () => {
       return (
             <div>
                   <div className = "text-center m-5">
-                  <h1> <b>WELCOME TO THE WEBSITE OF <br/> <span className="text-success">  AFRICAN FINEX GATEWAY </span></b> </h1> 
+                  <h1> <b>WELCOME TO THE WEBSITE OF <br/> <span className="text-warning"> <i>AFRICAN FINEX GATEWAY </i> </span></b> </h1> 
 
                   </div>
                   <div className = "text-center">
