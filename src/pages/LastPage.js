@@ -6,7 +6,7 @@ function LastPage() {
             <div className="text-center container border my-5">
             <div className="container p-5">
               <h4 className="my-5">
-                Congratulations you have made it successfully. Remember your internal
+                Congratulations! You have made it successfully. Remember your internal
                 transaction ID. If you need any help customer support will ask for it
               </h4>
               <h1>674227</h1>
